@@ -1,0 +1,35 @@
+/* WRAPPER 1 — outermost layer */
+.wrapper-outer {
+  background-color: red; /* wrapper color 1 */
+  padding: 20px;
+  width: fit-content;
+}
+
+/* WRAPPER 2 — inner layer */
+.wrapper-inner {
+  background-color: orange; /* wrapper color 2 */
+  padding: 20px;
+  width: fit-content;
+}
+
+/* H1 with 2 borders + 2 outlines */
+.fancy-title {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: fit-content;
+
+  /* BORDER 1 */
+  border: 5px solid yellow; /* border color 1 */
+
+  /* BORDER 2 (fake border using box-shadow) */
+  box-shadow: 0 0 0 5px green; /* border color 2 */
+
+  /* OUTLINE 1 */
+  outline: 5px dashed blue; /* outline color 1 */
+  outline-offset: 10px;
+
+  /* OUTLINE 2 (second outline using another box-shadow layer) */
+  box-shadow: 0 0 0 5px green, /* border 2 */ 0 0 0 15px purple; /* outline color 2 */
+}
