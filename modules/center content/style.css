@@ -1,0 +1,33 @@
+.center-display {
+  width: fit-content;
+  background: lightblue;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.center-position {
+  width: fit-content;
+  padding: 20px;
+  background: yellow;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.flex-container {
+  height: 300px; /* needed for vertical centering */
+  background: lightcoral;
+
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
+.flex-box {
+  background: white;
+  padding: 20px;
+  border: 2px solid black;
+}
